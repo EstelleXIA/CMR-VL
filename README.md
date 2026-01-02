@@ -1,6 +1,6 @@
 # Construction of VLM for CMR Interpretation
 
-This is the Github Repository for "Vision-Language Model for Automated Cardiac MRI Interpretation Enhances Efficiency in Acute Myocardial Infarction Assessment".
+This is the Github Repository for "Vision-Language Model for Automated Cardiac MRI Interpretation Enhances Efficiency in Acute Myocardial Infarction Assessment". We have released our trained model on [HuggingFace](https://huggingface.co/EstelleXIA/CMR-VL).
 
 ## Installation
 
@@ -129,5 +129,6 @@ llamafactory-cli train qwen2_5vl_sft_val.yaml
 ## Terms of use
 
 The code should only be used for academic research purposes.
+
 
 
