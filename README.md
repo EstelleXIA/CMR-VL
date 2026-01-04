@@ -50,7 +50,7 @@ A VQA sample for motion analysis should be structured like this:
 }
 ```
 
-Next, store the constructed VQA pairs in a JSON file so that they can be included in `dataset_info.json`, which records all VQA information for training and validation.
+Next, store the constructed VQA pairs in a JSON file so that they can be included in `dataset_info.json`, which records all VQA information for training and validation. We have also provided demo of the visual inputs in `./Demo_Figures`.
 
 A structured `dataset_info.json` would look roughly like this:
 
@@ -129,6 +129,7 @@ llamafactory-cli train qwen2_5vl_sft_val.yaml
 ## Terms of use
 
 The code should only be used for academic research purposes.
+
 
 
 
